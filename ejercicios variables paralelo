@@ -1,0 +1,65 @@
+
+# Ejercicio 1
+"""nombre = "Juan" # str
+edad = 25  # int
+altura = 1.75  # float
+es_estudiante = True  # bool
+
+print(f"Nombre: {nombre}")
+print(f"Edad: {edad}")
+print(f"Altura: {altura}m")
+print(f"Es estudiante: {es_estudiante}")"""
+
+
+# Ejercicio 2
+"""a = 10
+b = 3
+
+print(f"Suma: {a + b}")
+print(f"Resta: {a - b}")
+print(f"Multiplicación: {a * b}")"""
+
+
+
+
+# Ejercicio 3
+"""numero_str = "45"
+
+numero_int = int(numero_str)  # Convertir a entero
+numero_float = float(numero_str)  # Convertir a flotante
+
+print(f"Valor entero: {numero_int}")
+print(f"Valor flotante: {numero_float}")"""
+
+
+#ejercicio 1 con errores
+
+# Ejercicio 1
+"""nombre = "Carlos"
+edad = 30
+altura = "1.75"
+es_estudiante = False
+
+print("Nombre:", nombre)
+print("Edad:", edad)
+print("Altura:", altura)
+print("Es estudiante:", es_estudiante)"""
+
+
+# Ejercicio 2
+"""a = 15
+b = "5"
+
+suma = a + b
+print("La suma es:", suma)"""
+
+
+# Ejercicio 2 corregido
+a = 15
+b = "5"
+
+# Convertir b a entero
+b = int(b)
+
+suma = a + b
+print("La suma es:", suma)
