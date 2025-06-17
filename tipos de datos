@@ -1,0 +1,61 @@
+# Tipos de datos básicos
+
+print(True)                # Tipo de dato Booleano
+print(3)                   # Tipo de dato Entero
+print(3.14)                # Tipo de dato Flotante
+print("cadena de texto")   # Tipo de dato Cadena
+print(type("3.12"))        # Muestra el tipo de dato
+
+# Ejemplo de Enteros
+numero_entero = 10
+print("Número entero:", numero_entero)
+
+# Ejemplo de Flotantes
+numero_flotante = 3.14
+print("Número flotante:", numero_flotante)
+
+# Operaciones básicas
+suma = numero_entero + numero_flotante
+print("Suma:", suma)
+
+# Ejemplo de Cadenas
+nombre = "Juan"
+saludo = "Hola, " + nombre
+print(saludo)
+
+# Métodos de cadena
+print("Mayúsculas:", nombre.upper())
+print("Longitud de la cadena:", len(nombre))
+
+# Tipado dinámico
+x = 50
+print(type(x))
+x = "hola"
+print(type(x))
+
+# Variables numéricas y booleanas
+edad = 25
+altura = 1.75
+nombre = "Ana"
+es_estudiante = True
+
+# Operaciones con variables
+# Suma de variables numéricas
+suma = edad + 5
+print("Edad en 5 años:", suma)  # Imprime: Edad en 5 años: 30
+
+# Concatenación de cadenas
+saludo = "Hola, " + nombre
+print(saludo)  # Imprime: Hola, Ana
+
+# Sumar entero y decimal
+entero = 5
+decimal = 3.2
+resultado = entero + decimal
+print("La suma es:", resultado)
+
+# Solicitar datos al usuario
+nombre_usuario = input("Por favor, ingresa tu nombre: ")
+edad_usuario = int(input("Por favor, ingresa tu edad: "))
+edad_futura = edad_usuario + 10
+print(f"Hola {nombre_usuario}, en 10 años tendrás {edad_futura} años.")
