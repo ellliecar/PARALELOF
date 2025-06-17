@@ -1,0 +1,29 @@
+# Solicitar nombre y apellido al usuario
+nombre = input("Ingresa el nombre: ")
+apellido = input("Ingresa el apellido: ")
+resultado = f"{nombre} {apellido}"
+print(resultado)
+
+# Variables booleanas
+x = True
+y = False
+print(x, y)
+
+# Calcular el promedio de tres notas
+nota1 = float(input("Ingresa la primera calificación: "))
+nota2 = float(input("Ingresa la segunda calificación: "))
+nota3 = float(input("Ingresa la tercera calificación: "))
+promedio = (nota1 + nota2 + nota3) / 3
+print("Promedio:", promedio)
+
+# Suma de dos valores asignados
+valor1 = 4
+valor2 = 5
+suma = valor1 + valor2
+print("Suma de valores asignados:", suma)
+
+# Suma de dos números ingresados por el usuario
+valor1 = int(input("Ingresa un número: "))
+valor2 = int(input("Ingresa un segundo número: "))
+suma = valor1 + valor2
+print("Suma de números ingresados:", suma)
