@@ -1,0 +1,22 @@
+numero1 = float(input("Ingresa el primer número:" ))
+numero2 = float(input("Ingresa el segundo número:" ))
+suma = numero1 + numero2
+print("La suma de los dos números es:", suma)
+
+
+# mi primer ejercicio
+
+"""1edad = 20   #mal porque comienza con número    
+mi variable = 30  # mal porque no debe haber espacios
+print = "texto" # se usa una palabra reservada
+
+edad = 20
+mi_variable = 30
+resultado = "texto"""
+
+
+
+"""precio_original = float(input("Ingresa el precio original del producto: "))
+descuento = float(input("Ingresa el porcentaje de descuento: "))
+precio_final = precio_original - (precio_original * descuento / 100)
+print("El precio final con descuento es:", precio_final)"""
