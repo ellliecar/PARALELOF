@@ -1,0 +1,51 @@
+resultado = 5 + 3 * 2 ** 2 - 8 / 4
+print(resultado)
+
+
+resultado = (5 + 3) * (2 ** 2 - 8) / 4
+print(resultado)
+
+
+
+"""# Definir número
+num = 16
+
+# Exponente (cuadrado)
+cuadrado = num ** 2
+print(f"El cuadrado de {num} es: {cuadrado}")
+
+# Raíz cuadrada
+raiz = num ** 0.5
+print(f"La raíz cuadrada de {num} es: {raiz}")
+
+# Módulo (resto de la división)
+resto = num % 5
+print(f"El resto de {num} dividido entre 5 es: {resto}")
+
+
+
+# Definir dos números
+num1 = 10
+num2 = 5
+
+# Suma
+suma = num1 + num2
+print(f"La suma es: {suma}")
+
+# Resta
+resta = num1 - num2
+print(f"La resta es: {resta}")
+
+# Multiplicación
+multiplicacion = num1 * num2
+print(f"La multiplicación es: {multiplicacion}")
+
+# División
+division = num1 / num2
+print(f"La división es: {division}")"""
+
+
+a1 = 5
+a2 = 10
+division = a1 / a2
+print(f"La división es: {division}")
